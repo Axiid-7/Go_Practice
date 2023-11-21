@@ -1,0 +1,5 @@
+# ignore all mod files
+*.mod
+
+# ignore all sum files
+*.sum
