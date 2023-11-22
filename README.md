@@ -10,7 +10,8 @@
         - [How to run](#to-run-this-program-1)
     - [Closure](#closure)
         - [How to run](#to-run-this-program-2)
-    
+    - [Interface](#interface)
+        - [How to run](#to-run-this-program-3)
    
 </details>
 
@@ -80,4 +81,22 @@ go mod init closure
 go run main.go
 ```
 
+# Interface
 
+`interface` contains a **GoLang** file `main.go` which calculates square root of given number.
+
+It also handles negative numbers and prints appropriate error messsage for them.
+
+### To Run this Program
+
+Open `main.go` in compiler then open termianl of complier and run following command on terminal:
+
+```
+// This command will import all the packages 
+
+go mod init closure
+
+// To execute program
+
+go run main.go
+```
