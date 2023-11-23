@@ -3,15 +3,17 @@
 <details>
 <summary>Table of Content</summary>
 
-- [Go Practice](#go-practice)
-    - [Map](#map)
-        - [How to run](#to-run-this-program)
-    - [Slice](#slice)
-        - [How to run](#to-run-this-program-1)
-    - [Closure](#closure)
-        - [How to run](#to-run-this-program-2)
-    - [Interface](#interface)
-        - [How to run](#to-run-this-program-3)
+- [GO Practice](#go-practice)
+  - [map](#map)
+    - [To Run this Program](#to-run-this-program)
+  - [Slice](#slice)
+    - [To Run this Program](#to-run-this-program-1)
+- [closure](#closure)
+    - [To Run this Program](#to-run-this-program-2)
+- [Interface](#interface)
+    - [To Run this Program](#to-run-this-program-3)
+- [Concurrency](#concurrency)
+    - [To Run this Program](#to-run-this-program-4)
    
 </details>
 
@@ -86,6 +88,24 @@ go run main.go
 `interface` contains a **GoLang** file `main.go` which calculates square root of given number.
 
 It also handles negative numbers and prints appropriate error messsage for them.
+
+### To Run this Program
+
+Open `main.go` in compiler then open termianl of complier and run following command on terminal:
+
+```
+// This command will import all the packages 
+
+go mod init closure
+
+// To execute program
+
+go run main.go
+```
+
+# Concurrency
+
+`councurrency` contains a **GoLang** file `main.go` which search for *URLS* in parallelize manner using go routines.
 
 ### To Run this Program
 
